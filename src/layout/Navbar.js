@@ -12,10 +12,16 @@ const Navbar = () => {
           <Link to='/'>Home</Link>
         </li>
         <li>
+          <Link to='/form'>Form</Link>
+        </li>
+        <li>
           <Link to='/top-rated'>Top Rated</Link>
         </li>
         <li>
           <Link to='/about'>About</Link>
+        </li>
+        <li>
+          <Link to='/counter'>Counter</Link>
         </li>
         <li title='Wishlist' className='bg-indigo-500 p-2 rounded-full'>
           <Link to='/'>
